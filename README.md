@@ -1,6 +1,8 @@
 # Survey Form
 
+## Mobile
 ![Mobile Presentation](mobile_image.jpg)
+## Laptop
 ![Laptop Presentation](laptop_image.jpg)
 
 ## Form Details
