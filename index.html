@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>User Input Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Jewelry Purchase Form</h1>
+  <p id="description"><i>Help us recommend the best jewelry for you</i></p>
+  <div class="form-container">
+    <form id="user-input-form">
+      <label for="occasion" id="occasion-label">Occasion
+        <select id="occasion" required>
+          <option value="" disabled selected>Select occasion</option>
+          <option>Engagement</option>
+          <option>Anniversary</option>
+          <option>Birthday</option>
+          <option>Daily-wear</option>
+        </select>
+      </label>
+      <hr>
+
+      <label>Gift or personal purchase?
+        <br>
+        <br>
+        <input type="radio" name="purchase-type" value="Gift" required> Gift
+        <br>
+        <br>
+        <input type="radio" name="purchase-type" value="Personal" required> Personal
+      </label>
+      <hr>
+
+      <label>Gender
+        <br>
+        <br>
+        <input type="radio" id="male" name="gender" value="Male" required> Male
+        <br>
+        <br>
+        <input type="radio" id="female" name="gender" value="Female" required> Female
+        <br>
+        <br>
+        <input type="radio" id="other" name="gender" value="Other" required> Other
+      </label>
+      <hr>
+
+      <label>Age group
+        <br>
+        <br>
+        <input type="radio" name="age-group" value="18-24" required> 18-24
+        <br>
+        <br>
+        <input type="radio" name="age-group" value="25-34" required> 25-34
+        <br>
+        <br>
+        <input type="radio" name="age-group" value="35-44" required> 35-44
+        <br>
+        <br>
+        <input type="radio" name="age-group" value="45+" required> 45+
+      </label>
+      <hr>
+
+      <label for="religion">Religion (optional)
+        <input id="religion" type="text" placeholder="Enter your religion">
+      </label>
+      <hr>
+
+      <label>Type of jewelry
+        <br>
+        <br>
+        <input type="radio" id="rings" name="jewelry-type" value="Rings" required> Rings
+        <br>
+        <br>
+        <input type="radio" id="necklaces" name="jewelry-type" value="Necklaces" required> Necklaces
+        <br>
+        <br>
+        <input type="radio" id="pendants" name="jewelry-type" value="Pendants" required> Pendants
+      </label>
+      <hr>
+
+      <label>Budget
+        <select id="budget" required>
+          <option value="" disabled selected>Select budget range</option>
+          <option>10000</option>
+          <option>10000-20000</option>
+          <option>20000 - 50000</option>
+          <option>50000+</option>
+        </select>
+      </label>
+      <hr>
+
+      <label>Would you like to match your jewelry with an outfit? (optional)
+        <input type="file" id="outfit-upload" accept="image/*">
+        <div id="preview"></div>
+      </label>
+      <hr>
+
+      <label>
+        <input type="submit" name="submit" id="submit">
+      </label>
+    </form>
+  </div>
+  <div id="thank-you-message" class="hidden">
+    <h1 style="color: black;">Thank you for the survey!</h1>
+    <p>We would try our best to recoomend the best ornaments according to your choice</p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
