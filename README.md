@@ -1,7 +1,7 @@
 # Survey Form
 
-![Mobile Presentation](mobile_image.png)
-![Laptop Presentation](laptop_image.png)
+![Mobile Presentation](mobile_image.jpg)
+![Laptop Presentation](laptop_image.jpg)
 
 ## Form Details
 
