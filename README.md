@@ -18,4 +18,4 @@
 - Option to upload an outfit image for recommendations
 
 ### Deployment
-The survey form is deployed and can be accessed [here](link_to_deployed_form).
+The survey form is deployed and can be accessed [here](https://bharatsornaments.netlify.app/).
